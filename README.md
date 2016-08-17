@@ -1,8 +1,5 @@
 # [WIP] Minimal jump animated text
-
-```shell
-npm i -S react-anitext
-```
+> _(not yet published)_
 
 ```jsx
 function App () {
