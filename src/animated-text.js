@@ -75,6 +75,8 @@ const AnimatedText = React.createClass({
   }
 });
 
+export default AnimatedText;
+
 function getLetter (props, current, letter, letterIndex) {
   if (letter === ' ') return (
     <span key={letterIndex}>&nbsp;</span>
@@ -82,7 +84,6 @@ function getLetter (props, current, letter, letterIndex) {
 
   return <span key={letterIndex} style={getStyle(props, letterIndex, current)}>{letter}</span>
 }
-export default AnimatedText;
 
 function defaultStyle ({ animation: { time = '100ms' } = {} }) {
   return {
